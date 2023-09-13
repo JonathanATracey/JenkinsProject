@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/jonathantracey/JenkinsProject/src/main/java/JenkinsProject">
+        <classes>
+            <class name="JenkinsProject.Task2Test">
+                <methods>
+                    <include name="checkAllElements"/>
+                    <include name="checkSortedLetters"/>
+                    <include name="checkSortedLetters2"/>
+                    <include name="checkSortedLetters3"/>
+                </methods>
+            </class>
+            <class name="JenkinsProject.Task3Test">
+                <methods>
+                    <include name="displayNameTest"/>
+                    <include name="displayMatchAllTest"/>
+                    <include name="displayMatchAllNegativeTest"/>
+                    <include name="displayMatchAnyTest"/>
+                    <include name="displayMatchAnyNegativeTest"/>
+                    <include name="displayMatchNoneTest"/>
+                    <include name="displayMatchNoneNegativeTest"/>
+                    <include name="countLetterTest"/>
+                    <include name="findLetterTest"/>
+                </methods>
+            </class>
+            <class name="JenkinsProject.Task4Test">
+                <methods>
+                    <include name="noDuplicatesTest"/>
+                    <include name="noDuplicatesSecondTest"/>
+                </methods>
+            </class>
+            <class name="JenkinsProject.Task5Test">
+                <methods>
+                    <include name="positive_onlyLetters_test"/>
+                    <include name="mixed_onlyLetters_test"/>
+                    <include name="noLetters_onlyLetters_test"/>
+                    <include name="emptyMap_onlyLetters_test"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
