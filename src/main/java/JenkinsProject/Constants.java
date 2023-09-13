@@ -1,3 +1,5 @@
+package JenkinsProject;
+
 import java.util.*;
 
 public class Constants {

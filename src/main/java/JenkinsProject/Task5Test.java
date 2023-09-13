@@ -1,4 +1,4 @@
-
+package JenkinsProject;
 
 
 import org.testng.annotations.Test;
